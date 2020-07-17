@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usa" translatesAutoresizingMaskIntoConstraints="NO" id="0J3-9e-HlR">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="220.66666666666666"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="brasil" translatesAutoresizingMaskIntoConstraints="NO" id="9n5-qW-s8X">
-                                <rect key="frame" x="0.0" y="258" width="414" height="376"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brasil" translatesAutoresizingMaskIntoConstraints="NO" id="9n5-qW-s8X">
+                                <rect key="frame" x="0.0" y="235.66666666666663" width="414" height="221"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKf-ba-pEV">
                                 <rect key="frame" x="128.5" y="173" width="245.5" height="34"/>
@@ -59,11 +59,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="0J3-9e-HlR" secondAttribute="trailing" id="8Zg-N2-t9c"/>
-                            <constraint firstItem="0J3-9e-HlR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="LVy-iP-g7Z"/>
-                            <constraint firstItem="9n5-qW-s8X" firstAttribute="top" secondItem="0J3-9e-HlR" secondAttribute="bottom" constant="15" id="WTD-VP-xlw"/>
-                            <constraint firstItem="0J3-9e-HlR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="avz-Q4-HMZ"/>
-                            <constraint firstItem="0J3-9e-HlR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ePe-me-TYz"/>
+                            <constraint firstItem="9n5-qW-s8X" firstAttribute="top" secondItem="0J3-9e-HlR" secondAttribute="bottom" constant="15" id="8ES-u1-G4P"/>
+                            <constraint firstItem="9n5-qW-s8X" firstAttribute="width" secondItem="0J3-9e-HlR" secondAttribute="width" id="CDZ-Bs-0mj"/>
+                            <constraint firstItem="0J3-9e-HlR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HCd-Qg-PWg"/>
+                            <constraint firstItem="0J3-9e-HlR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="csi-zz-9Oh"/>
+                            <constraint firstItem="9n5-qW-s8X" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hqW-aw-xT5"/>
+                            <constraint firstItem="0J3-9e-HlR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="m4b-Te-d9x"/>
+                            <constraint firstItem="0J3-9e-HlR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wSs-2u-FLs"/>
+                            <constraint firstItem="9n5-qW-s8X" firstAttribute="height" secondItem="0J3-9e-HlR" secondAttribute="height" id="zcf-uz-37d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
