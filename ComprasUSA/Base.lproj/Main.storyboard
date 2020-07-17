@@ -162,9 +162,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="W6P-nJ-D4Z">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="Qis-jX-GNl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vxK-aw-zf0">
                                 <rect key="frame" x="0.0" y="333" width="414" height="299"/>
@@ -242,13 +241,19 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qis-jX-GNl" firstAttribute="leading" secondItem="bPf-Le-bB2" secondAttribute="leading" id="3M9-Z7-WGW"/>
+                            <constraint firstItem="bPf-Le-bB2" firstAttribute="trailing" secondItem="Qis-jX-GNl" secondAttribute="trailing" id="POL-dN-3oy"/>
+                            <constraint firstItem="Qis-jX-GNl" firstAttribute="top" secondItem="bPf-Le-bB2" secondAttribute="top" id="fjY-59-gJm"/>
+                            <constraint firstItem="bPf-Le-bB2" firstAttribute="bottom" secondItem="Qis-jX-GNl" secondAttribute="bottom" id="uM9-yh-rSS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bPf-Le-bB2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Impostos" image="taxes" id="P0C-eD-tVo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IXj-qq-cc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2430.434782608696" y="97.767857142857139"/>
+            <point key="canvasLocation" x="2430.434782608696" y="96.428571428571431"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="54f-hj-TCL">
@@ -268,7 +273,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTs-Qz-zOI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1722" y="-632"/>
+            <point key="canvasLocation" x="1722" y="-665"/>
         </scene>
     </scenes>
     <resources>
