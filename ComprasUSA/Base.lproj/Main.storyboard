@@ -20,6 +20,7 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brasil" translatesAutoresizingMaskIntoConstraints="NO" id="9n5-qW-s8X">
                                 <rect key="frame" x="0.0" y="328" width="414" height="268.5"/>
+                                <variation key="heightClass=regular-widthClass=regular" image="saopaulo"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor sem impostos (dólar 3,50)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwY-Dw-T0B">
                                 <rect key="frame" x="43" y="417" width="218.5" height="18"/>
@@ -77,11 +78,15 @@
                             <constraint firstItem="9n5-qW-s8X" firstAttribute="top" secondItem="0J3-9e-HlR" secondAttribute="bottom" constant="15" id="8ES-u1-G4P"/>
                             <constraint firstItem="9n5-qW-s8X" firstAttribute="width" secondItem="0J3-9e-HlR" secondAttribute="width" id="CDZ-Bs-0mj"/>
                             <constraint firstItem="OKf-ba-pEV" firstAttribute="trailing" secondItem="0J3-9e-HlR" secondAttribute="trailing" constant="-40" id="EFJ-sd-xtm"/>
-                            <constraint firstItem="Gne-P8-kYY" firstAttribute="top" secondItem="2KP-og-ddQ" secondAttribute="bottom" constant="8" id="F8o-Re-Hpc"/>
+                            <constraint firstItem="Gne-P8-kYY" firstAttribute="top" secondItem="2KP-og-ddQ" secondAttribute="bottom" constant="8" id="F8o-Re-Hpc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="0J3-9e-HlR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HCd-Qg-PWg"/>
                             <constraint firstItem="oOH-Wu-pqV" firstAttribute="trailing" secondItem="9n5-qW-s8X" secondAttribute="trailing" constant="-22" id="IRw-43-Z7r"/>
                             <constraint firstItem="LwY-Dw-T0B" firstAttribute="leading" secondItem="oOH-Wu-pqV" secondAttribute="leading" constant="3" id="LHc-C9-5Ix"/>
-                            <constraint firstItem="oOH-Wu-pqV" firstAttribute="top" secondItem="LwY-Dw-T0B" secondAttribute="bottom" constant="8" id="SJ2-2E-CsS"/>
+                            <constraint firstItem="oOH-Wu-pqV" firstAttribute="top" secondItem="LwY-Dw-T0B" secondAttribute="bottom" constant="8" id="SJ2-2E-CsS">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="OKf-ba-pEV" firstAttribute="centerY" secondItem="0J3-9e-HlR" secondAttribute="centerY" id="UZa-ZE-KOt"/>
                             <constraint firstItem="Gne-P8-kYY" firstAttribute="centerY" secondItem="OKf-ba-pEV" secondAttribute="centerY" id="aFI-vz-DpQ"/>
                             <constraint firstItem="0J3-9e-HlR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="csi-zz-9Oh"/>
@@ -385,6 +390,7 @@
         <image name="bag" width="23" height="23"/>
         <image name="brasil" width="937" height="376"/>
         <image name="flag" width="2000" height="1333"/>
+        <image name="saopaulo" width="1920" height="1200"/>
         <image name="settings" width="23" height="23"/>
         <image name="taxes" width="23" height="23"/>
         <image name="usa" width="700" height="295"/>
