@@ -122,6 +122,11 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Compras" image="bag" id="byY-NU-lIp"/>
+                    <connections>
+                        <outlet property="lbReal" destination="oOH-Wu-pqV" id="f9k-2Q-agF"/>
+                        <outlet property="lbRealDescription" destination="LwY-Dw-T0B" id="KHX-VM-oeu"/>
+                        <outlet property="tfDolar" destination="OKf-ba-pEV" id="Lsl-Oa-PGD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -217,6 +222,11 @@
                         <viewLayoutGuide key="safeArea" id="mdE-Jq-Yyh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Configurações" image="settings" id="nm6-MQ-D6s"/>
+                    <connections>
+                        <outlet property="tfDolar" destination="zbI-Ll-xZh" id="CZt-GY-MJO"/>
+                        <outlet property="tfIOF" destination="7K2-iJ-BSE" id="Av4-6F-uTb"/>
+                        <outlet property="tfStateTaxes" destination="jIH-7L-Vki" id="74M-uD-rlo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hmh-v1-ft9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,6 +370,15 @@
                         <viewLayoutGuide key="safeArea" id="bPf-Le-bB2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Impostos" image="taxes" id="P0C-eD-tVo"/>
+                    <connections>
+                        <outlet property="lbDolar" destination="qpU-Vd-BIM" id="tXR-Kr-3hI"/>
+                        <outlet property="lbIOF" destination="4g4-RY-9gW" id="A2l-GB-1xo"/>
+                        <outlet property="lbIOFDescription" destination="sVJ-Vf-bKm" id="nSB-VU-Wa9"/>
+                        <outlet property="lbReal" destination="VR9-uf-SGp" id="cwM-IP-sXQ"/>
+                        <outlet property="lbStateTax" destination="HHp-eJ-cPI" id="J74-15-J3z"/>
+                        <outlet property="lbStateTaxDescription" destination="gXs-Cu-yAc" id="MBx-x2-O9W"/>
+                        <outlet property="swCreditCard" destination="H3k-u4-gyC" id="zEy-Qd-4oD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IXj-qq-cc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
