@@ -39,9 +39,16 @@ class TaxesCalculator {
         return finalValue
     }
     
-    func convertTODouble(_ string: String) -> Double {
+    func convertToDouble(_ string: String) -> Double {
         formartter.numberStyle = .none
         return formartter.number(from: string)!.doubleValue
+    }
+    
+    func getFormattedValue(of value: Double, withCurreny currency: String) -> String {
+        formartter.numberStyle = .currency
+        formartter.currencySymbol = currency
+        formartter.alwaysShowsDecimalSeparator = true
+        return formartter.string(for: value)!
     }
     
     private init() {

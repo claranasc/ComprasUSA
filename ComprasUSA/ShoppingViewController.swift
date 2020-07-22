@@ -26,12 +26,11 @@ class ShoppingViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         tfDolar.resignFirstResponder()
         setAmmount()
-        
     }
     
     func setAmmount() {
-        tc.dolar = Double(tfDolar.text!)!
+        tc.shoppingValue = tc.convertToDouble(tfDolar.text!)
+        lbReal.text = tc.getFormattedValue(of: tc.shoppingValue * tc.dolar, withCurreny: "R$ ")
     }
     
 }
-
