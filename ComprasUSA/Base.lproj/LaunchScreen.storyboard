@@ -15,17 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="oAF-eV-NvX">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="tintColor" red="0.67919689416885376" green="0.92729640007019043" blue="0.68054229021072388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="67T-Po-NaF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="oAF-eV-NvX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2eK-Zn-Tky"/>
-                            <constraint firstItem="oAF-eV-NvX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="44o-nc-62C"/>
-                            <constraint firstItem="oAF-eV-NvX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TUH-fQ-q0R"/>
-                            <constraint firstItem="oAF-eV-NvX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tZl-Kw-fsD"/>
+                            <constraint firstAttribute="trailing" secondItem="67T-Po-NaF" secondAttribute="trailing" id="NBK-To-roT"/>
+                            <constraint firstItem="67T-Po-NaF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bu7-t1-b9d"/>
+                            <constraint firstItem="67T-Po-NaF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kIk-Fp-Mv1"/>
+                            <constraint firstAttribute="bottom" secondItem="67T-Po-NaF" secondAttribute="bottom" id="mBt-U1-ZIV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
