@@ -17,7 +17,7 @@ class TaxesCalculator {
     var stateTax: Double = 7.0
     var shoppingValue: Double = 0
     
-    let formartter = NumberFormatter()
+    let formatter = NumberFormatter()
         
     var shoppingValueInReal: Double {
         return shoppingValue * dolar
@@ -40,19 +40,19 @@ class TaxesCalculator {
     }
     
     func convertToDouble(_ string: String) -> Double {
-        formartter.numberStyle = .none
-        return formartter.number(from: string)!.doubleValue
+        formatter.numberStyle = .none
+        return formatter.number(from: string)!.doubleValue
     }
     
     func getFormattedValue(of value: Double, withCurreny currency: String) -> String {
-        formartter.numberStyle = .currency
-        formartter.currencySymbol = currency
-        formartter.alwaysShowsDecimalSeparator = true
-        return formartter.string(for: value)!
+        formatter.numberStyle = .currency
+        formatter.currencySymbol = currency
+        formatter.alwaysShowsDecimalSeparator = true
+        return formatter.string(for: value)!
     }
     
     private init() {
-        formartter.usesGroupingSeparator = true
+        formatter.usesGroupingSeparator = true
     }
     
 }

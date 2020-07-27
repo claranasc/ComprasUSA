@@ -161,6 +161,9 @@
                                                         <color key="textColor" red="0.67262238264083862" green="0.089334301650524139" blue="0.12810075283050537" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="dhh-VL-MBR" id="qRh-GQ-xEW"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -179,6 +182,9 @@
                                                         <color key="textColor" red="0.10648854821920395" green="0.50785332918167114" blue="0.096168659627437592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="dhh-VL-MBR" id="tFs-Bg-sUL"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -197,6 +203,9 @@
                                                         <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="dhh-VL-MBR" id="CEW-MX-LVK"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
