@@ -15,17 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="67T-Po-NaF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="testando" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvM-iN-fyx">
+                                <rect key="frame" x="84" y="306" width="246" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="67T-Po-NaF" secondAttribute="trailing" id="NBK-To-roT"/>
-                            <constraint firstItem="67T-Po-NaF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bu7-t1-b9d"/>
-                            <constraint firstItem="67T-Po-NaF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kIk-Fp-Mv1"/>
-                            <constraint firstAttribute="bottom" secondItem="67T-Po-NaF" secondAttribute="bottom" id="mBt-U1-ZIV"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="NDO-ib-IVC"/>
@@ -35,7 +33,4 @@
             <point key="canvasLocation" x="1066.6666666666667" y="603.34821428571422"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="flag" width="2000" height="1333"/>
-    </resources>
 </document>

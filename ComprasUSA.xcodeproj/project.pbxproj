@@ -12,11 +12,11 @@
 		25214BBD24BFAEE3001CB9DD /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25214BBC24BFAEE3001CB9DD /* ShoppingViewController.swift */; };
 		25214BC024BFAEE3001CB9DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25214BBE24BFAEE3001CB9DD /* Main.storyboard */; };
 		25214BC224BFAEE6001CB9DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25214BC124BFAEE6001CB9DD /* Assets.xcassets */; };
-		25214BC524BFAEE6001CB9DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25214BC324BFAEE6001CB9DD /* LaunchScreen.storyboard */; };
 		25214BCD24C07BCD001CB9DD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25214BCC24C07BCD001CB9DD /* SettingsViewController.swift */; };
 		25214BCF24C07BE7001CB9DD /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25214BCE24C07BE7001CB9DD /* TaxesViewController.swift */; };
 		25542EE924C8F04300CF5047 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25542EE824C8F04300CF5047 /* TaxesCalculator.swift */; };
 		25542EEB24C8F3B900CF5047 /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25542EEA24C8F3B900CF5047 /* UIViewController+TaxesCalculator.swift */; };
+		25A1F99E24CF8F2300B4DF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A1F99D24CF8F2300B4DF40 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		25214BBC24BFAEE3001CB9DD /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		25214BBF24BFAEE3001CB9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25214BC124BFAEE6001CB9DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25214BC424BFAEE6001CB9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25214BC624BFAEE6001CB9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25214BCC24C07BCD001CB9DD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		25214BCE24C07BE7001CB9DD /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 		25542EE824C8F04300CF5047 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
 		25542EEA24C8F3B900CF5047 /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
+		25A1F99D24CF8F2300B4DF40 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 				25542EEA24C8F3B900CF5047 /* UIViewController+TaxesCalculator.swift */,
 				25214BBE24BFAEE3001CB9DD /* Main.storyboard */,
 				25214BC124BFAEE6001CB9DD /* Assets.xcassets */,
-				25214BC324BFAEE6001CB9DD /* LaunchScreen.storyboard */,
 				25214BC624BFAEE6001CB9DD /* Info.plist */,
+				25A1F99D24CF8F2300B4DF40 /* LaunchScreen.storyboard */,
 			);
 			path = ComprasUSA;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25214BC524BFAEE6001CB9DD /* LaunchScreen.storyboard in Resources */,
+				25A1F99E24CF8F2300B4DF40 /* LaunchScreen.storyboard in Resources */,
 				25214BC224BFAEE6001CB9DD /* Assets.xcassets in Resources */,
 				25214BC024BFAEE3001CB9DD /* Main.storyboard in Resources */,
 			);
@@ -169,14 +169,6 @@
 				25214BBF24BFAEE3001CB9DD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25214BC324BFAEE6001CB9DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25214BC424BFAEE6001CB9DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
